@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedX Solution - Ultra-Fast Internet & TV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <h2 class="logo">SpeedX Solution</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#providers" class="nav-link">Providers</a></li>
+                    <li class="nav-item"><a href="#deals" class="nav-link">Deals</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-cta">
+                <a href="tel:+18774198698" class="btn btn-primary">Call Now +1 (877) 419-8698</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <img src="https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="High-speed internet" class="hero-bg">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide">
+                <img src="https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Streaming entertainment" class="hero-bg">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-slide">
+                <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Connected home" class="hero-bg">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+        <div class="hero-content container">
+            <h1 class="hero-title">Ultra-Fast Internet & TV, Delivered.</h1>
+            <p class="hero-subtitle">Connect with speeds up to 1 Gbps + premium channels.</p>
+            <div class="hero-cta">
+                <a href="#checker" class="btn btn-outline">Check Availability</a>
+                <a href="tel:+18774198698" class="btn btn-primary">Call Now</a>
+            </div>
+        </div>
+        <div class="hero-nav">
+            <button class="hero-prev" id="hero-prev">❮</button>
+            <button class="hero-next" id="hero-next">❯</button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Stats Counter Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50000">0</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="99.9">0</div>
+                    <div class="stat-label">% Uptime</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1000">0</div>
+                    <div class="stat-label">Mbps Max Speed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">7 Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Availability Checker -->
+    <section class="checker" id="checker">
+        <div class="container">
+            <h2 class="section-title">Check Your Availability</h2>
+            <form class="checker-form" id="availability-form">
+                <div class="form-group">
+                    <input type="text" id="zip-code" placeholder="Enter your ZIP code" required>
+                    <button type="submit" class="btn btn-primary">Show My Plans</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About SpeedX Solution</h2>
+                    <p class="about-description">
+                        At SpeedX Solution, we're committed to delivering ultra-fast internet and premium entertainment 
+                        solutions that keep you connected to what matters most. As a certified JNA dealer, we partner 
+                        with top providers to offer the best options for your home or business.
+                    </p>
+                    <p class="about-description">
+                        Our mission is to bridge the digital divide by providing high-speed internet access and cutting-edge 
+                        TV services to homes and businesses across the country. We believe that everyone deserves access to 
+                        fast, reliable internet at an affordable price.
+                    </p>
+                    <a href="#contact" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="SpeedX Solution team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Providers Section -->
+    <section class="providers" id="providers">
+        <div class="container">
+            <h2 class="section-title">Our Trusted Partners</h2>
+            <p class="section-subtitle">As a certified JNA dealer, we work with leading providers to bring you the best service options</p>
+            <div class="providers-grid">
+                <div class="provider-card">
+                    <div class="provider-logo">AT&T</div>
+                    <h3 class="provider-name">AT&T</h3>
+                    <p class="provider-description">Nationwide coverage with fiber and 5G technology</p>
+                </div>
+                <div class="provider-card">
+                    <div class="provider-logo">VZ</div>
+                    <h3 class="provider-name">Verizon</h3>
+                    <p class="provider-description">Premium wireless and FiOS internet services</p>
+                </div>
+                <div class="provider-card">
+                    <div class="provider-logo">SP</div>
+                    <h3 class="provider-name">Spectrum</h3>
+                    <p class="provider-description">High-speed internet and cable TV packages</p>
+                </div>
+                <div class="provider-card">
+                    <div class="provider-logo">XF</div>
+                    <h3 class="provider-name">Xfinity</h3>
+                    <p class="provider-description">Gigabit internet and streaming solutions</p>
+                </div>
+                <div class="provider-card">
+                    <div class="provider-logo">FR</div>
+                    <h3 class="provider-name">Frontier</h3>
+                    <p class="provider-description">Fiber internet for rural and urban areas</p>
+                </div>
+                <div class="provider-card">
+                    <div class="provider-logo">HN</div>
+                    <h3 class="provider-name">HughesNet</h3>
+                    <p class="provider-description">Satellite internet for remote locations</p>
+                </div>
+                <div class="provider-card">
+                    <div class="provider-logo">CL</div>
+                    <h3 class="provider-name">CenturyLink</h3>
+                    <p class="provider-description">Reliable DSL and fiber internet solutions</p>
+                </div>
+                <div class="provider-card">
+                    <div class="provider-logo">P+</div>
+                    <h3 class="provider-name">Paramount+</h3>
+                    <p class="provider-description">Premium streaming with exclusive content</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3 class="service-title">Home Internet</h3>
+                    <p class="service-description">High-speed internet plans up to 1 Gbps for seamless streaming, gaming, and browsing.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Fiber Available</span>
+                        <span class="feature-tag">No Data Caps</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3 class="service-title">Business Internet</h3>
+                    <p class="service-description">Reliable connectivity solutions designed for businesses of all sizes.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Static IP</span>
+                        <span class="feature-tag">Priority Support</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📺</div>
+                    <h3 class="service-title">TV & Streaming</h3>
+                    <p class="service-description">Premium cable TV packages with 500+ channels and streaming services.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">4K Content</span>
+                        <span class="feature-tag">DVR Included</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3 class="service-title">Bundles</h3>
+                    <p class="service-description">Save more with our internet and TV bundle packages.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Save 30%</span>
+                        <span class="feature-tag">Free Install</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📡</div>
+                    <h3 class="service-title">Wi-Fi Extenders</h3>
+                    <p class="service-description">Extend your Wi-Fi coverage to every corner of your home.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Mesh Network</span>
+                        <span class="feature-tag">Easy Setup</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🆘</div>
+                    <h3 class="service-title">24/7 Support</h3>
+                    <p class="service-description">Round-the-clock customer support whenever you need assistance.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Live Chat</span>
+                        <span class="feature-tag">Phone Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Deals -->
+    <section class="deals" id="deals">
+        <div class="container">
+            <h2 class="section-title">Featured Deals</h2>
+            <div class="deals-wrapper">
+                <div class="deals-carousel" id="deals-carousel">
+                    <div class="deal-card active">
+                        <div class="deal-badge">$39.99/mo</div>
+                        <div class="deal-popular">Most Popular</div>
+                        <h3 class="deal-title">Starter Bundle</h3>
+                        <ul class="deal-features">
+                            <li>200 Mbps Internet</li>
+                            <li>100+ TV Channels</li>
+                            <li>Free Installation</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                        <a href="tel:+18774198698" class="btn btn-primary">Get Started</a>
+                    </div>
+                    <div class="deal-card">
+                        <div class="deal-badge">$59.99/mo</div>
+                        <h3 class="deal-title">Premium Bundle</h3>
+                        <ul class="deal-features">
+                            <li>500 Mbps Internet</li>
+                            <li>300+ TV Channels</li>
+                            <li>Free Premium Streaming</li>
+                            <li>Wi-Fi Extender Included</li>
+                        </ul>
+                        <a href="tel:+18774198698" class="btn btn-primary">Get Started</a>
+                    </div>
+                    <div class="deal-card">
+                        <div class="deal-badge">$79.99/mo</div>
+                        <h3 class="deal-title">Ultra Bundle</h3>
+                        <ul class="deal-features">
+                            <li>1 Gbps Internet</li>
+                            <li>500+ TV Channels</li>
+                            <li>All Streaming Services</li>
+                            <li>Home Security Package</li>
+                        </ul>
+                        <a href="tel:+18774198698" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+                <div class="deals-nav">
+                    <button class="deals-prev" id="deals-prev">❮</button>
+                    <button class="deals-next" id="deals-next">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Speed Test -->
+    <section class="speed-test">
+        <div class="container">
+            <h2 class="section-title">Test Your Current Speed</h2>
+            <div class="speed-test-widget">
+                <div class="speed-meter">
+                    <div class="speed-gauge">
+                        <div class="gauge-needle" id="gauge-needle"></div>
+                        <div class="gauge-center"></div>
+                    </div>
+                    <div class="speed-display">
+                        <div class="speed-value" id="speed-value">0</div>
+                        <div class="speed-unit">Mbps</div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" id="start-test">Start Speed Test</button>
+                <p class="speed-disclaimer">*This is a simulated speed test for demonstration purposes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why SpeedX -->
+    <section class="why-speedx">
+        <div class="container">
+            <h2 class="section-title">Why Choose SpeedX Solution?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-panel">
+                    <div class="benefit-icon">⚡</div>
+                    <h3 class="benefit-title">Lightning Fast Speeds</h3>
+                    <p class="benefit-description">Experience internet speeds up to 1 Gbps for all your streaming, gaming, and browsing needs.</p>
+                </div>
+                <div class="benefit-panel alt">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3 class="benefit-title">Reliable Connection</h3>
+                    <p class="benefit-description">99.9% uptime guarantee ensures you stay connected when it matters most.</p>
+                </div>
+                <div class="benefit-panel">
+                    <div class="benefit-icon">💰</div>
+                    <h3 class="benefit-title">Transparent Pricing</h3>
+                    <p class="benefit-description">Clear pricing with execution fees ranging from $49.99 to $199.99, separate from provider billing.</p>
+                </div>
+                <div class="benefit-panel alt">
+                    <div class="benefit-icon">👥</div>
+                    <h3 class="benefit-title">Expert Support</h3>
+                    <p class="benefit-description">Our certified technicians provide 24/7 support to resolve any issues quickly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonials-slider" id="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <p>"SpeedX Solution helped me find the perfect internet plan. Their team was professional and the setup was seamless!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JS</div>
+                        <div class="author-info">
+                            <div class="author-name">John Smith</div>
+                            <div class="author-location">Austin, TX</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Great service and transparent pricing. No hidden fees and excellent customer support throughout the process."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div class="author-info">
+                            <div class="author-name">Maria Johnson</div>
+                            <div class="author-location">Dallas, TX</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"As a certified JNA dealer, they connected me with the best provider for my area. Highly recommend!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RW</div>
+                        <div class="author-info">
+                            <div class="author-name">Robert Wilson</div>
+                            <div class="author-location">Houston, TX</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-dots">
+                <button class="dot active" data-slide="0"></button>
+                <button class="dot" data-slide="1"></button>
+                <button class="dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What services does SpeedX Solution offer?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>SpeedX Solution provides a wide range of connectivity solutions, including high-speed internet, cellular plans, bundled packages, and streaming services. As a certified JNA dealer, we partner with top providers to offer the best options for your home or business.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What companies are serviceable through SpeedX Solution and JNA?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>As a certified JNA dealer, SpeedX Solution offers services from leading companies, including Paramount+, SHOWTIME®, AT&T, Verizon, Spectrum, Comcast Xfinity, Frontier, HughesNet, CenturyLink, and many more. Through our partnerships, we ensure access to reliable and diverse service options.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is SpeedX Solution a service provider?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>SpeedX Solution is an authorized dealer and certified retailer, but not a direct service provider. We work with top providers, like those listed above, to connect you with their offerings, ensuring you receive the best possible service.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What are SpeedX Solution's execution charges?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>SpeedX Solution charges for execution services, including setting up new connections, processing bill payments, plan upgrades, account cancellations, and other administrative tasks. These charges range from $49.99 to $199.99, depending on the service request, and are separate from the billing charges of the service providers.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Why are SpeedX Solution's execution charges separate from my service provider's billing?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>As a separate entity, SpeedX Solution independently handles the execution of your service requests. Our charges cover the work required to manage and complete requests such as plan upgrades, installations, or account changes. These fees are distinct from your provider's billing, which covers your actual internet, cellular, or streaming service.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I contact SpeedX Solution for support?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can reach our customer support team through the contact form on our website or by calling the assistance number provided. Our team is available to help with inquiries, service requests, or troubleshooting needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3 class="contact-subtitle">Get in Touch</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3 class="contact-subtitle">Or call us now</h3>
+                        <p class="contact-phone">
+                            <a href="tel:+18774198698">+1 (877) 419-8698</a>
+                        </p>
+                        <div class="contact-features">
+                            <p>✓ Free consultation</p>
+                            <p>✓ Instant availability check</p>
+                            <p>✓ Special phone-only deals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#deals">Deals</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+18774198698">Customer Service</a></li>
+                        <li><a href="tel:+18774198698">Technical Support</a></li>
+                        <li><a href="tel:+18774198698">Billing Questions</a></li>
+                        <li><a href="tel:+18774198698">Report Outage</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SpeedX Solution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
